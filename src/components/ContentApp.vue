@@ -4,15 +4,24 @@
   <services-app :pos="windowTop" />
   <team-app />
   <portfolio-app />
+  <contact-app />
 </template>
 <script>
 import AboutApp from "./Contents/AboutApp.vue";
+import ContactApp from "./Contents/ContactApp.vue";
 import HomeApp from "./Contents/HomeApp.vue";
 import PortfolioApp from "./Contents/PortfolioApp.vue";
 import ServicesApp from "./Contents/ServicesApp.vue";
 import TeamApp from "./Contents/TeamApp.vue";
 export default {
-  components: { HomeApp, AboutApp, ServicesApp, TeamApp, PortfolioApp },
+  components: {
+    HomeApp,
+    AboutApp,
+    ServicesApp,
+    TeamApp,
+    PortfolioApp,
+    ContactApp,
+  },
   data() {
     return {
       windowTop: 0,

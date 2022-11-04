@@ -36,4 +36,9 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped>
+footer {
+  position: relative;
+  top: 330vh;
+}
+</style>
